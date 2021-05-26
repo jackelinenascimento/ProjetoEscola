@@ -11,4 +11,6 @@ Projeto implementado com design Clean Architecture
 - Builder Pattern
 - Regras de Dependências
 - Domain Driven Design - DDD
+- Testes de Unidade com JUnit
+- JDBC
 
