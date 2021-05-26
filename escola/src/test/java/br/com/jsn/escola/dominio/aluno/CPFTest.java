@@ -1,24 +1,24 @@
-package br.com.jsn.escola;
+package br.com.jsn.escola.dominio.aluno;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import br.com.jsn.escola.aluno.Telefone;
+import br.com.jsn.escola.dominio.aluno.CPF;
 
-class TelefoneTest {
+class CPFTest {
 
 	@Test
-	void naoDeveCriarTelefoneComDadosInvalidos() {
+	void naoDeveCriarCPFComDadosInvalidos() {
 		
 		assertThrows(IllegalArgumentException.class,
-				() -> new Telefone(null, null));
+				() -> new CPF(null));
 		
 		assertThrows(IllegalArgumentException.class,
-				() -> new Telefone("",""));
+				() -> new CPF(""));
 		
 		assertThrows(IllegalArgumentException.class,
-				() -> new Telefone("12", "12345"));
+				() -> new CPF("122333"));
 		
 	}
 
