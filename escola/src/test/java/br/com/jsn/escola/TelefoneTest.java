@@ -1,8 +1,10 @@
-package escola;
+package br.com.jsn.escola;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import br.com.jsn.escola.aluno.Telefone;
 
 class TelefoneTest {
 

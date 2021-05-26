@@ -1,4 +1,4 @@
-package escola;
+package br.com.jsn.escola.aluno;
 
 // builder pattern
 
