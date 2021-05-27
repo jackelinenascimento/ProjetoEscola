@@ -13,4 +13,7 @@ Projeto implementado com design Clean Architecture
 - Domain Driven Design - DDD
 - Testes de Unidade com JUnit
 - JDBC
+- Conceito de Repositórios
+- Criação de Exceptions
+
 
