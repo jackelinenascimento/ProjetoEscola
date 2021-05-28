@@ -11,7 +11,7 @@ public class Telefone {
 			throw new IllegalArgumentException("DDD e Numero são obrigatorios");
 		}
 		
-		if(!ddd.matches("\\d{2)")) {
+		if(!ddd.matches("\\d{2}")) {
 			throw new IllegalArgumentException("DDD invalido");
 		}
 		

@@ -19,5 +19,4 @@ public class MatricularAlunoDto {
 	public Aluno criarAluno() {
 		return new Aluno(new CPF(this.cpfAluno), this.nomeAluno, new Email(this.emailAluno));
 	}
-
 }

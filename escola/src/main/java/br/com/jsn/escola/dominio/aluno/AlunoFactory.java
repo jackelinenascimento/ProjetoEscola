@@ -12,7 +12,11 @@ public class AlunoFactory {
 	}
 	
 	public AlunoFactory comTelefone(String ddd, String numero) {
-		this.aluno.adicionarTelefone(ddd, numero);
+		try {
+			this.aluno.adicionarTelefone(ddd, numero);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return this;
 	}
 	

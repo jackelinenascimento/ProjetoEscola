@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 import br.com.jsn.escola.dominio.aluno.CPF;
+import br.com.jsn.escola.dominio.aluno.exception.AlunoNaoEncontrado;
 import br.com.jsn.escola.infra.aluno.RepositorioDeAlunosEmMemoria;
 
 class MatricularAlunoTest {
@@ -38,5 +39,16 @@ class MatricularAlunoTest {
 				() -> useCase.matricular(dados));
 		
 	}
+	
+	@Test
+	void deveMostrarExceptionDeAlunoNaoEncontrado() {
+		
+		RepositorioDeAlunosEmMemoria repositorio = new RepositorioDeAlunosEmMemoria();
+		
+		assertThrows(AlunoNaoEncontrado.class,
+				() -> {
+					repositorio.buscarPorCPF(new CPF("123.456.789-12"));
+				});
+		}
 
 }

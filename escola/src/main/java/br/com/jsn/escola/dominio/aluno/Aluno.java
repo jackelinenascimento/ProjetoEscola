@@ -3,6 +3,10 @@ package br.com.jsn.escola.dominio.aluno;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.jsn.escola.dominio.aluno.exception.NumeroMaximoDeTelefonesCadastrados;
+
+//Aggregate root
+
 public class Aluno {
 	
 	private CPF cpf;
@@ -20,7 +24,11 @@ public class Aluno {
 		this.email = email;
 	}
 
-	public void adicionarTelefone(String ddd, String numero) {
+	public void adicionarTelefone(String ddd, String numero) throws RuntimeException {
+		//invariante
+		if(telefones.size() == 2) {
+			throw new NumeroMaximoDeTelefonesCadastrados();
+		}
 		this.telefones.add(new Telefone(ddd, numero));
 	}
 

@@ -12,6 +12,7 @@ import br.com.jsn.escola.dominio.aluno.Email;
 import br.com.jsn.escola.dominio.aluno.RepositorioDeAlunos;
 import br.com.jsn.escola.dominio.aluno.Telefone;
 import br.com.jsn.escola.dominio.aluno.exception.AlunoNaoEncontrado;
+import br.com.jsn.escola.dominio.aluno.exception.NumeroMaximoDeTelefonesCadastrados;
 
 public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
 
@@ -77,10 +78,9 @@ public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
 			}
 			return encontrado;
 			
-		} catch(SQLException | AlunoNaoEncontrado e) {
+		} catch(SQLException | AlunoNaoEncontrado | NumeroMaximoDeTelefonesCadastrados e ) {
 			throw new RuntimeException(e);
 		}
-
 	}
 
 	@Override

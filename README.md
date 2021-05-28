@@ -1,19 +1,22 @@
 # Projeto Escola
 
-Projeto implementado com design Clean Architecture
+Projeto implementado com design Clean Architecture e conceitos de DDD
 
 
 ## Conceitos trabalhados:
 
+- Domain Driven Design - DDD
 - Entidades
 - Value Objects
+- Repository
+- Factory
+- Service
+- Aggregates
+- Invariante
+- Eventos
 - Clean Architecture
 - Builder Pattern
-- Regras de Dependências
-- Domain Driven Design - DDD
 - Testes de Unidade com JUnit
-- JDBC
-- Conceito de Repositórios
-- Criação de Exceptions
+- JDBC- Criação de Exceptions
 
 
