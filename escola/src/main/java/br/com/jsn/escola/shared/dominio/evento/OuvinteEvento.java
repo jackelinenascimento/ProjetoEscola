@@ -1,4 +1,4 @@
-package br.com.jsn.escola.academico.dominio;
+package br.com.jsn.escola.shared.dominio.evento;
 
 public abstract class OuvinteEvento {
 

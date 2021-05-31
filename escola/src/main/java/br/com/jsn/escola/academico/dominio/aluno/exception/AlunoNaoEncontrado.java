@@ -1,6 +1,6 @@
 package br.com.jsn.escola.academico.dominio.aluno.exception;
 
-import br.com.jsn.escola.academico.dominio.aluno.CPF;
+import br.com.jsn.escola.shared.dominio.CPF;
 
 public class AlunoNaoEncontrado extends RuntimeException {
 

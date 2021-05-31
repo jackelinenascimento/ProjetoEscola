@@ -14,6 +14,7 @@ Projeto implementado com design Clean Architecture e conceitos de DDD
 - Aggregates
 - Invariante
 - Eventos
+- Shared Kernel
 - Clean Architecture
 - Builder Pattern
 - Testes de Unidade com JUnit

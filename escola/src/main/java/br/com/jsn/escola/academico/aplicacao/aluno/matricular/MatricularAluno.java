@@ -1,9 +1,9 @@
 package br.com.jsn.escola.academico.aplicacao.aluno.matricular;
 
-import br.com.jsn.escola.academico.dominio.PublicadorDeEventos;
 import br.com.jsn.escola.academico.dominio.aluno.Aluno;
 import br.com.jsn.escola.academico.dominio.aluno.AlunoMatriculado;
 import br.com.jsn.escola.academico.dominio.aluno.RepositorioDeAlunos;
+import br.com.jsn.escola.shared.dominio.evento.PublicadorDeEventos;
 
 public class MatricularAluno {
 	
@@ -16,6 +16,7 @@ public class MatricularAluno {
 	}
 	
 	public void executa(MatricularAlunoDto dados) {
+		
 		Aluno novo = dados.criarAluno();
 		repositorio.matricular(novo);
 		

@@ -1,4 +1,4 @@
-package br.com.jsn.escola.aplicacao.aluno.matricular;
+package br.com.jsn.escola.academico.aplicacao.aluno.matricular;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

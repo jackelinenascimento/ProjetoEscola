@@ -1,4 +1,4 @@
-package br.com.jsn.escola.dominio.aluno;
+package br.com.jsn.escola.academico.dominio.aluno;
 
 import static org.junit.jupiter.api.Assertions.*;
 

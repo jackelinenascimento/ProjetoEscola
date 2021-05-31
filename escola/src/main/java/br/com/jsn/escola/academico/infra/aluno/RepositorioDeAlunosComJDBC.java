@@ -7,12 +7,12 @@ import java.sql.SQLException;
 import java.util.List;
 
 import br.com.jsn.escola.academico.dominio.aluno.Aluno;
-import br.com.jsn.escola.academico.dominio.aluno.CPF;
 import br.com.jsn.escola.academico.dominio.aluno.Email;
 import br.com.jsn.escola.academico.dominio.aluno.RepositorioDeAlunos;
 import br.com.jsn.escola.academico.dominio.aluno.Telefone;
 import br.com.jsn.escola.academico.dominio.aluno.exception.AlunoNaoEncontrado;
 import br.com.jsn.escola.academico.dominio.aluno.exception.NumeroMaximoDeTelefonesCadastrados;
+import br.com.jsn.escola.shared.dominio.CPF;
 
 public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
 

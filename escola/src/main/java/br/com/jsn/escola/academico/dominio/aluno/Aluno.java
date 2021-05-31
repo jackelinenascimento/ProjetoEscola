@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.jsn.escola.academico.dominio.aluno.exception.NumeroMaximoDeTelefonesCadastrados;
+import br.com.jsn.escola.shared.dominio.CPF;
 
 //Aggregate root
 

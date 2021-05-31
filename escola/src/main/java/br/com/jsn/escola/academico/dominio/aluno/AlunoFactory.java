@@ -1,5 +1,7 @@
 package br.com.jsn.escola.academico.dominio.aluno;
 
+import br.com.jsn.escola.shared.dominio.CPF;
+
 // builder pattern
 
 public class AlunoFactory {

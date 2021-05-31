@@ -1,8 +1,8 @@
 package br.com.jsn.escola.academico.aplicacao.aluno.matricular;
 
 import br.com.jsn.escola.academico.dominio.aluno.Aluno;
-import br.com.jsn.escola.academico.dominio.aluno.CPF;
 import br.com.jsn.escola.academico.dominio.aluno.Email;
+import br.com.jsn.escola.shared.dominio.CPF;
 
 public class MatricularAlunoDto {
 	

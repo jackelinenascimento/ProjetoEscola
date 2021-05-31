@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.jsn.escola.academico.dominio.aluno.Aluno;
-import br.com.jsn.escola.academico.dominio.aluno.CPF;
 import br.com.jsn.escola.academico.dominio.aluno.RepositorioDeAlunos;
 import br.com.jsn.escola.academico.dominio.aluno.exception.AlunoNaoEncontrado;
+import br.com.jsn.escola.shared.dominio.CPF;
 
 public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
 
@@ -20,7 +20,7 @@ public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
 	@Override
 	public Aluno buscarPorCPF(CPF cpf) {
 		return this.matriculados.stream()
-				.filter(a -> a.getCpf().equals(cpf.getNumero()))
+				.filter(a -> a.getCpf().equals(cpf))
 				.findFirst()
 				.orElseThrow(() -> new AlunoNaoEncontrado(cpf));
 	}

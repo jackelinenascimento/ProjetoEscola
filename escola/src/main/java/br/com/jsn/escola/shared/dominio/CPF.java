@@ -1,4 +1,4 @@
-package br.com.jsn.escola.academico.dominio.aluno;
+package br.com.jsn.escola.shared.dominio;
 
 public class CPF {
 
