@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
 
+import br.com.jsn.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDto;
+
 class MatricularAlunoDtoTest {
 
 	@Test

@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import br.com.jsn.escola.dominio.aluno.Email;
+import br.com.jsn.escola.academico.dominio.aluno.Email;
 
 class EmailTest {
 

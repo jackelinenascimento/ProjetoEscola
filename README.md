@@ -17,6 +17,8 @@ Projeto implementado com design Clean Architecture e conceitos de DDD
 - Clean Architecture
 - Builder Pattern
 - Testes de Unidade com JUnit
-- JDBC- Criação de Exceptions
+- JDBC
+- Criação de Exceptions
+- JavaMail
 
 
